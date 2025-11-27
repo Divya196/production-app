@@ -5,6 +5,8 @@ from datetime import datetime
 import json
 
 st.set_page_config(page_title="Facilities Asset Data Capture", layout="wide", initial_sidebar_state="collapsed")
+st.error("🔴 DEBUG: This is the NEW version - 2024-11-27 v2")
+st.write("If you see this debug message, the new code is running!")
 
 st.markdown("""
 <style>
